@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    /* ========== CORES ==========*/
+    --cor-cinza-escuro: #8A9A5B;
+    --cor-laranja: #D18C24;
+
+    /* ========== FONT ==========*/
+    --font-principal: "Lato", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+}
+
+.contain_img_load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.img_load {
+    width: 210px;
+}
+
+.contain_voltar {
+    margin: 15px;
+    transition: transform 0.5s;
+}
+
+.contain_voltar:hover {
+    transform: translateX(-2px);
+}
+
+.contain_voltar a:hover {
+    text-decoration: none;
+}
+
+.icone_voltar {
+    color: var(--cor-cinza-escuro);
+    font-size: 18px;
+}
+
+.contain {
+    margin: 30px;
+    border: 1px solid var(--cor-laranja);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.titulo {
+    font-style: italic;
+    color: var(--cor-cinza-escuro);
+    position: relative;
+    top: -40px;
+    width: 155px;
+    background-color: white;
+    z-index: 100;
+}
+
+.texto {
+    text-indent: 15px;
+    text-align: justify;
+}
+
+
+.texto {
+    text-indent: 15px;
+    text-align: justify;
+}

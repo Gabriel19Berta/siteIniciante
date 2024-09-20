@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+      
+    <title>Café da Manhã</title>
+</head>
+<body>
+    <div id="loading" class="contain_img_load">
+        <img src="../assets/img/loadcafe.gif" class="img_load">
+    </div>
+
+    <div id="conteudo" style="display: none;">
+        <div class="container" style="margin-bottom: 10px;">
+            <form action="paginas/site.html" class="mt-4">
+                <div class="card p-4 contain_main">
+                    <h1 class="text-center mb-4 titulo_empresa">Sip <span style="color: #D18C24;">&</span> Savor</h1>
+    
+                    <div class="contain_inputs_formulario">
+                        <!-- Seus Dados -->
+                        <div class="mb-4">
+                            <h3 class="mb-3 subtitulo">
+                                <i class="ri-id-card-line"></i> Seus dados
+                            </h3>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Nome" class="form-control input" name="nome" type="text" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Sobrenome" class="form-control input" name="sobrenome" type="text" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Idade" class="form-control input" name="idade" type="date" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Telefone" class="form-control input" name="telefone" type="text" id="telefone" maxlength="10">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Celular" class="form-control input" name="celular" type="text" id="celular" maxlength="15">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Endereço -->
+                        <div class="mb-4">
+                            <h3 class="mb-3 subtitulo">
+                                <i class="ri-community-line"></i> Endereço
+                            </h3>
+                            <div class="form-row">
+                                <div class="form-group col-md-2">
+                                    <input placeholder="CEP" class="form-control input" name="cep" type="text" required>
+                                </div>
+                                <div class="form-group col-md-8">
+                                    <select class="input col-md-4" name="endereco" disabled>
+                                        <option value="umuarama">Umuarama</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-10">
+                                    <input placeholder="Endereço" class="form-control input" name="endereco" type="text" required>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <input placeholder="Número" class="form-control input" name="numero" type="text" required maxlength="4">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Bairro" class="form-control input" name="bairro" type="text" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Complemento" class="form-control input" name="complemento" type="text">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Acesso -->
+                        <div class="mb-4">
+                            <h3 class="mb-3 subtitulo">
+                                <i class="ri-shield-user-line"></i> Acesso
+                            </h3>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Email" class="form-control input" name="email" type="email" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input placeholder="Senha" class="form-control input" name="senha" type="password" required>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Botão de Enviar -->
+                        <div class="text-center">
+                            <input type="submit" value="Entrar" class="btn btn-lg botao_entrar">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <!-- =============== SCRIPTS =============== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap.bundle.js.map"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js.map"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.js.map"></script>
+    <script src="assets/js/bootstrap.min (1).js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js.map"></script>
+    <script src="assets/js/holder.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+</body>
+</html>
+
+
+
+<script>
+
+    /* ========= RELOAD ========= */
+    var i = setInterval(function () {
+
+    clearInterval(i);
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("conteudo").style.display = "inline";
+
+}, 1500);
+
+
+/* ========= NÚMERO CELULAR ========= */
+function aplicarMascaraTelefone(event) {
+    let input = event.target;
+    let value = input.value.replace(/\D/g, '');
+    value = value.substring(0, 9);
+
+    if (value.length > 5) {
+        input.value = value.replace(/(\d{5})(\d{0,4})/, '$1-$2');
+    } else {
+        input.value = value;
+    }
+}
+
+function aplicarMascaraCelular(event) {
+    let input = event.target;
+    let value = input.value.replace(/\D/g, '');
+    value = value.substring(0, 11);
+
+    if (value.length > 6) {
+        input.value = value.replace(/(\d{2})(\d{1})(\d{4})(\d{0,4})/, '($1) $2$3-$4');
+    } else if (value.length > 2) {
+        input.value = value.replace(/(\d{2})(\d{0,5})/, '($1) $2'); 
+    } else {
+        input.value = value;
+    }
+}
+
+document.getElementById('telefone').addEventListener('input', aplicarMascaraTelefone);
+document.getElementById('celular').addEventListener('input', aplicarMascaraCelular);
+
+    document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const nome = document.querySelector('input[name="nome"]').value;
+        const sobrenome = document.querySelector('input[name="sobrenome"]').value;
+        const idade = document.querySelector('input[name="idade"]').value;
+        const telefone = document.querySelector('input[name="telefone"]').value;
+        const celular = document.querySelector('input[name="celular"]').value;
+        const cep = document.querySelector('input[name="cep"]').value;
+        const endereco = document.querySelector('input[name="endereco"]').value;
+        const numero = document.querySelector('input[name="numero"]').value;
+        const bairro = document.querySelector('input[name="bairro"]').value;
+        const complemento = document.querySelector('input[name="complemento"]').value;
+        const email = document.querySelector('input[name="email"]').value;
+        const senha = document.querySelector('input[name="senha"]').value;
+
+        localStorage.setItem('nome', nome);
+        localStorage.setItem('sobrenome', sobrenome);
+        localStorage.setItem('idade', idade);
+        localStorage.setItem('telefone', telefone);
+        localStorage.setItem('celular', celular);
+        localStorage.setItem('cep', cep);
+        localStorage.setItem('endereco', endereco);
+        localStorage.setItem('numero', numero);
+        localStorage.setItem('bairro', bairro);
+        localStorage.setItem('complemento', complemento);
+        localStorage.setItem('email', email);
+        localStorage.setItem('senha', senha);
+
+        window.location.href = 'paginas/site.html';
+    });
+
+</script>

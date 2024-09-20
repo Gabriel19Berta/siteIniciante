@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styleSobre.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Sobre</title>
+</head>
+<body>
+<!-- ============== RELOAD ============== -->
+    <div id="loading" class="contain_img_load">
+        <img src="../assets/img/loadcafe.gif" class="img_load">
+    </div>
+
+    <div id="conteudo" style="display: none;">
+        <div class="contain_voltar">
+            <a href="site.html">
+                <i class="ri-arrow-left-line icone_voltar"></i>
+            </a>
+        </div>
+        <div class="contain">
+            <h2 class="titulo">Sobre o site</h2>
+            <p class="texto" style="text-indent: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, laboriosam rem minima nesciunt autem ipsum quisquam assumenda soluta molestias impedit pariatur ipsam porro, accusamus unde, dolorem fugit nisi alias tempore!
+            Quas, quam adipisci. Doloremque dolorum, illum eum veniam deserunt ex error sint quos culpa tenetur! Voluptate, est quas corrupti hic sapiente earum debitis explicabo sint nesciunt minus nulla. Vitae, veritatis.
+            Esse ipsam quia repellat sunt atque aperiam dolor suscipit recusandae qui eaque commodi sed nostrum ad aut sint id minus, aliquid amet totam, odio nobis animi illo. Doloribus, quia nemo.</p>
+        </div>
+        <div class="contain">
+            <h2 class="titulo">Referências</h2>
+            <p class="texto">Todas imagens pegas do <a href="https://github.com/bedimcode/responsive-coffee-website/tree/main/assets/img" target="_blank">github Bedimcode <i class="ri-external-link-line"></i></a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+/* =========== RELOAD ===========*/
+var i = setInterval(function () {
+
+    clearInterval(i);
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("conteudo").style.display = "inline";
+
+}, 800);
+</script>
